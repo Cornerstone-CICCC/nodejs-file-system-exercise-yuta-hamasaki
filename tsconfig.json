@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "rootDir": "./src", // server ts files
-    "outDir": "./dist", // compiled js files
-    "target": "ES6", // target ES version
-    "module": "CommonJS", // code generated
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"]
 }

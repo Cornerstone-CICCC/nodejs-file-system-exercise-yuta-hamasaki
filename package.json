@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "name": "nodejs-file-system-exercise-yuta-hamasaki",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RM4m25jX) # NodeJS - File System Exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "undici-types": "^6.19.8"
+  },
+  "keywords": [],
+  "author": "Yuta Hamasaki",
+  "license": "ISC"
+}
